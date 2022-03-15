@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background-color: rgb(253, 247, 163);
+    height: 100%;
+    width: 100%;
+}
+
+.body1{
+    
+    background-color: rgb(253, 247, 163);
+    height: 100%;
+    width: 100%;
+}
+
+.grilla1{
+    display: grid;
+    grid-template-columns: row;
+    grid-template-areas: 
+    "logo1 logo2";
+    background-color: rgb(253, 247, 163);
+}
+
+
+
+.grilla_nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "titulonosotros titulonosotros"
+    "img_nosotros2 texto_nosotros2"
+    "img_nosotros1 texto_nosotros1"
+    "img_nosotros3 texto_nosotros3"; 
+    background-color:rgb(253, 247, 163) ;
+}
+
+.menunavegacion{
+    margin-top: 5%;
+    margin-right: 30%;
+    background-color:rgb(253, 247, 163);
+}
+
+
+
+.titulonosotros{
+    grid-area: titulonosotros;
+    text-align: center;
+    width: 100%;
+    color:rgb(201, 138, 138);
+    font-size: 80%;
+    font-family: 'Old Standard TT', serif;
+    background-color: rgb(253, 247, 163);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.texto_nosotros2{
+    grid-area: texto_nosotros2;
+    text-align: center;
+    width: 100%;
+    color:rgb(252, 180, 24);
+    font-size: 130%;
+    font-family: 'Old Standard TT', serif;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.img_nosotros2{
+    grid-area: img_nosotros2;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.texto_nosotros1{
+    grid-area: texto_nosotros1;
+    text-align: center;
+    width: 100%;
+    color:rgb(252, 180, 24);
+    font-size: 130%;
+    font-family: 'Old Standard TT', serif;
+    margin-top: 15%;
+    
+}
+
+.img_nosotros1{
+    grid-area: img_nosotros1;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.texto_nosotros3{
+    grid-area: texto_nosotros1;
+    text-align: center;
+    width: 100%;
+    color:rgb(252, 180, 24);
+    font-size: 130%;
+    font-family: 'Old Standard TT', serif;
+    margin-top: 20%;
+}
+
+.img_nosotros3{
+    grid-area: img_nosotros1;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.grillafotos{
+    padding-left: 10%;
+    background-color: rgb(253, 247, 163);
+    
+}
+
+
+.bloque2{
+    grid-area: bloque2;
+ 
+}
+
+.bloque3{
+    grid-area: bloque3;
+   
+}
+
+.redessociales{
+    width: 3%;
+}
+
+.redessociales2{
+    width: 4%;
+}
+
+.redessociales3{
+    width: 4%;
+}
+
+.ul1{
+    list-style: none;
+}
+
+.ul2{
+    list-style: none;
+}
+
+.ul3{
+    list-style: none;
+}
+
+.ul1:hover{
+    transform: translate(10px);
+}
+
+.ul2:hover{
+    transform: translate(10px);
+}
+
+.ul3:hover{
+    transform: translate(10px);
+}
+
+.ulredes{
+    margin-top: 1%;
+    margin-left: none;
+}
+
+.portada{
+    width: 28%;
+    margin-left: 35%;
+}
+
+
+.fraseindex1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(252, 180, 24);
+    font-size: 110%;    
+    
+}
+
+.btn-primary{
+    margin-top: 1%;
+}
+
+.formulario{
+    margin-top: 10%;
+}
+.texto_nosotros1{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.texto_nosotros2{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.texto_nosotros3{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+.fraseindex1{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.descripcionyoga{
+    text-align: center;
+    font-style: italic;
+    color: rgb(252, 180, 24);
+    font-size: 100%;
+    
+}
+
+.descripcionyoga {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+.piefotos{
+    text-align: center;
+    font-style: italic;
+    color: rgb(53, 41, 14);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: row;
+    grid-template-areas: 
+    "bloque1 autor";
+    text-align: right;
+  
+}
+
+.redessociales:hover{
+    transform: scale(1.5,1.5);
+}
+
+.redessociales2:hover{
+    transform: scale(1.4,1.4);
+}
+
+.redessociales3:hover{
+    transform: scale(1.5,1.5);
+}
+
+
+.bloque1{
+    grid-area: bloque1;
+    margin-right: 43%;
+   
+}
+
+.autor{
+    grid-area: autor;
+    height: 50px;
+    margin-top: 10%;
+}
+.container-fluid{
+    background-color: rgb(253, 247, 163);
+}
+
+
+.logo1{
+    width: 10%;
+    grid-area: logo1;
+}
+
+.logo2{
+    width: 6%;
+    grid-area: logo2;
+    margin-left: 46%;
+}
+
+#carouselExampleControls{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titulogaleria{
+    grid-area: texto_nosotros1;
+    text-align: center;
+    width: 100%;
+    color:rgb(201, 138, 138);
+    font-size: 210%;
+    font-family: 'Old Standard TT', serif;
+    margin-top: 2%;
+}
+
+.formulario{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 12%;
+}
+
+.titulocontacto{
+    grid-area: texto_nosotros1;
+    text-align: center;
+    width: 100%;
+    color:rgb(201, 138, 138);
+    font-size: 210%;
+    font-family: 'Old Standard TT', serif;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 768px){
+    .grilla_nosotros{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "titulonosotros"
+        "img_nosotros2"
+        "texto_nosotros2"
+        "img_nosotros1"
+        "texto_nosotros1"; 
+        background-color:rgb(245, 245, 209) ;
+    }
+}
